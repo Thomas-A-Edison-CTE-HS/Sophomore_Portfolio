@@ -9,3 +9,6 @@ color: red;
 a:hover
 color: purple;
 }
+div{
+ align-items: center;
+}
