@@ -3,3 +3,9 @@ body{
   background-image: url("shooting star.gif");
   background-repeat: no-repeat;
 }
+a{
+color: red;
+{
+a:hover
+color: purple;
+}
