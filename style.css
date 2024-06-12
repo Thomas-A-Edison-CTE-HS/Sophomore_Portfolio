@@ -1,7 +1,10 @@
 
 body{
-  background-image: url("clouds.gif");
-  background-repeat: no-repeat;
+    background-color: palevioletred;
+  color: peachpuff;
+  text-align: center;
+  vertical-align: super;
+  font-family: 'Josefine Sans', sans-serif;
 }
 a{
 color: red;
@@ -14,4 +17,37 @@ div{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+.banner{
+  background-color: rgba(951,661,401, 0.6);
+  margin: 15px;
+  padding: 10px;
+  height: 150px;
+  border: 3px solid indigo;
+  box-shadow: 5px 2px 2px 5px #ddd;
+  outline-offset: 1px;
+  outline: grove 2px maroon;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #8F00FF;
+  font-family: blogger;
+  font-style: oblique;
+  text-align: right;
+}
+.menu{
+margin: 10px;
+padding: 10px;
+overflow: hidden;
+position: absolute;
+left: 20px;
+top: 20px;
+font-size: 2em;
+text-align: left;
+z-index: 1;
+}
+.menu a{
+  background-color: mediumpurple;
+  display: none;
+  color: white;
+  padding: 2px;
+  font-size: 0.5em;
 }
